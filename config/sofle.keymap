@@ -86,11 +86,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F12  &kp F1        &kp F2  &kp F3  &kp F4  &kp F5                                &kp F6        &kp F7                &kp F8                 &kp F9           &kp F10           &kp F11
-&trans   &kp N1        &kp N2  &kp N3  &kp N4  &kp N5                                &kp SLASH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT      &kp AMPERSAND     &kp CARET
-&trans   &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0                                &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN    &kp GREATER_THAN  &kp HASH
-&trans   &trans        &trans  &trans  &trans  &trans  &kp C_MUTE    &trans          &kp MINUS     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp QUESTION      &kp AT_SIGN
-                       &trans  &trans  &trans  &trans  &trans        &kp UNDERSCORE  &kp PLUS      &kp EQUAL             &kp BACKSLASH          &kp DOLLAR
+&kp F12  &kp F1        &kp F2  &kp F3  &kp F4  &kp F5                                   &kp F6        &kp F7                &kp F8                 &kp F9           &kp F10           &kp F11
+&trans   &kp N1        &kp N2  &kp N3  &kp N4  &kp N5                                   &kp SLASH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT      &kp AMPERSAND     &kp CARET
+&trans   &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0                                   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN    &kp GREATER_THAN  &kp HASH
+&trans   &trans        &trans  &trans  &trans  &trans  &kp C_MUTE    &kp LG(LC(RIGHT))  &kp MINUS     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp QUESTION      &kp AT_SIGN
+                       &trans  &trans  &trans  &trans  &trans        &kp UNDERSCORE     &kp PLUS      &kp EQUAL             &kp BACKSLASH          &kp DOLLAR
             >;
 
             sensor-bindings =
@@ -109,11 +109,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &trans            &trans        &trans      &trans     &trans  &kp LC(RIGHT_BRACKET)
-&trans      &trans        &trans        &trans        &kp Q         &trans                                  &kp PG_UP         &kp HOME      &kp UP      &kp END    &trans  &kp LC(LEFT_BRACKET)
-&trans      &kp LC(A)     &kp LC(S)     &kp LC(D)     &kp LC(F)     &trans                                  &kp PG_DN         &kp LEFT      &kp DOWN    &kp RIGHT  &trans  &kp LC(SLASH)
-&trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &trans        &trans    &trans          &trans            &trans        &trans      &trans     &trans  &trans
-                          &trans        &trans        &trans        &trans        &trans    &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp DELETE  &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                              &trans            &trans        &trans      &trans     &trans  &kp LC(RIGHT_BRACKET)
+&trans      &trans        &trans        &trans        &kp Q         &trans                                    &kp PG_UP         &kp HOME      &kp UP      &kp END    &trans  &kp LC(LEFT_BRACKET)
+&trans      &kp LC(A)     &kp LC(S)     &kp LC(D)     &kp LC(F)     &trans                                    &kp PG_DN         &kp LEFT      &kp DOWN    &kp RIGHT  &trans  &kp LC(SLASH)
+&trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &trans        &trans    &kp LC(LG(LEFT))  &trans            &trans        &trans      &trans     &trans  &trans
+                          &trans        &trans        &trans        &trans        &trans    &kp LEFT_SHIFT    &kp LEFT_CONTROL  &kp LEFT_ALT  &kp DELETE  &trans
             >;
 
             sensor-bindings =
